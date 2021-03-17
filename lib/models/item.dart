@@ -1,6 +1,5 @@
 class Item {
-  String name;
-  int price;
+  String name, release, image, desc;
 
-  Item({this.name, this.price});
+  Item({this.name, this.release, this.image, this.desc});
 }
